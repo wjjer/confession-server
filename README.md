@@ -1,5 +1,9 @@
 # confession-server
 
+该应用为告白吧： [wjjer](https://github.com/wjjer)/**[confession-android](https://github.com/wjjer/confession-android)** 的服务端，需要运行客户端，请参照 [wjjer](https://github.com/wjjer)/**[confession-android](https://github.com/wjjer/confession-android)**
+
+
+
 
 ## 应用介绍
 
