@@ -103,7 +103,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>vip.ablog.common.App</mainClass>
+                            <mainClass>vip.ablog.common.AppPackageApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

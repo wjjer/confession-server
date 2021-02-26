@@ -1,0 +1,4 @@
+jdbcUrl = jdbc:mysql://xx.xx.xx.xx:3306/confession?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+user = xx
+password = xx
+devMode = false

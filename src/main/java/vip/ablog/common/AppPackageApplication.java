@@ -5,7 +5,7 @@ import com.jfinal.kit.PathKit;
 import com.jfinal.kit.StrKit;
 import vip.ablog.utils.ZipUtil;
 
-public class App {
+public class AppPackageApplication {
     /**
      * 用于在 IDEA 中，通过创建 main 方法的方式启动项目，不支持热加载
      * 本方法存在的意义在于此方法启动的速度比 maven 下的 jetty 插件要快得多
@@ -17,7 +17,7 @@ public class App {
         /**
          * 特别注意：IDEA 之下建议的启动方式，仅比 eclipse 之下少了最后一个参数
          */
-        String baseBath = String.valueOf(App.class.getProtectionDomain().getCodeSource().getLocation());
+        String baseBath = String.valueOf(AppPackageApplication.class.getProtectionDomain().getCodeSource().getLocation());
         String classPath, webRootPath, jarPath;
         if (StrKit.notBlank(baseBath) && baseBath.contains("file:/")) {
             // 获取运行操作系统的运行方式  window和linux的细微区别
